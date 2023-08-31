@@ -2,5 +2,11 @@
   border:1px solid;
   padding: 10px;
   margin:10px;
-  text-align: center;
+  width: 500px;
 }
+
+.img{
+  width:500px
+  
+}
+
