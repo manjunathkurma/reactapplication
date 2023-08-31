@@ -9,9 +9,6 @@ function Vacation(){
         setTour([...res.data])
     })
   },[])
-  function not(){
-    return 
-  }
     
     return(
       <div>{
@@ -21,7 +18,7 @@ function Vacation(){
             <h3>{a.name}</h3>
           <p>{a.info}</p>
           <span>$ :{a.price}</span><br />
-          <button onClick={not}>Not interesting</button>
+  
           </div>
         })
         }</div>
