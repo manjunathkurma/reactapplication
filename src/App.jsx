@@ -1,8 +1,9 @@
-import Vacation from "./Vacation";
+import Products from "./Products";
+
 function App() {
   return (
     <div>
-      <Vacation></Vacation>
+      <Products>Products</Products>
     </div>
   );
 }
