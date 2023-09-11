@@ -1,11 +1,10 @@
-import {Link, Outlet } from "react-router-dom";
-import Country from "./Country";
+import React from "react";
+import Sformik from "./Sformik";
 function App() {
   return (
     <div className="box">
-      <Link to='/country'>country</Link>
-      <Outlet></Outlet>
-   
+      <h1>Students</h1>
+      <Sformik></Sformik>
     </div>
   );
 }
