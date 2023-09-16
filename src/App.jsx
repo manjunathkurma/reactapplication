@@ -1,17 +1,11 @@
 import React from "react";
-import { Provider } from "react-redux";
-import { store } from "./app/store";
-import Counter from "./features/counter/counter";
-import Todo from "./features/todo/todo";
+import Books from "./Books";
 function App(){
   return (
-    <Provider store={store}> 
-      <div className="box">
-      <h1>Welcome</h1>
-    <Counter></Counter>
-    <Todo></Todo>
+    <div className="box">
+      <h1>Form</h1>
+      <Books></Books>
     </div>
-    </Provider>
   )
 }
 export default App

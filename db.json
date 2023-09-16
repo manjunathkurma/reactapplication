@@ -1,0 +1,34 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "redux",
+      "author": "code"
+    },
+    {
+      "id": 2,
+      "title": "server",
+      "author": "type"
+    },
+    {
+      "id": 3,
+      "title": "json",
+      "author": "enter"
+    },
+    {
+      "title": "cvn",
+      "author": "holy",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
