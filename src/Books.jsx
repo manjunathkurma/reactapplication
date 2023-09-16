@@ -48,7 +48,7 @@ return (
         {
             edits && (
                 <div>
-                Title: <input type="text" placeholder="title" value={select.title} onChange={(event)=>{setSelect({...select,title:event.target.value})}}/><br />
+                Title: <input type="text" placeholder="title" value={select.title} onChange={(event)=>{setSelect({...select,title:event.target.value})}}/><br/>
                 Author:<input type="text" placeholder="author" value={select.author} onChange={(event)=>{setSelect({...select,author:event.target.value})}}/>
                 <button onClick={()=>{update()}}>update</button>
                 
