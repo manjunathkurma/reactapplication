@@ -1,11 +1,19 @@
 import React from "react";
-import Books from "./Books";
+import { Provider } from "react-redux";
+import { store } from "./app/store";
+import Counter from "./features/counter/counter";
+
+import Header from "./shared/header";
+import { Outlet } from "react-router-dom";
 function App(){
   return (
-    <div className="box">
-      <h1>Form</h1>
-      <Books></Books>
+    <Provider store={store}> 
+      <div className="box">
+        <Header></Header>
+      <Outlet></Outlet>
+    
     </div>
+    </Provider>
   )
 }
 export default App
